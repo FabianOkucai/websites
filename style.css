@@ -1,0 +1,206 @@
+body {
+    background-color: white;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #212121;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+
+}
+
+.logo-link {
+    display: inline-block; 
+}
+
+.logo-img {
+    width: 300px;  
+    height: auto;  
+    border-radius: 30%; 
+    box-sizing: 30%;
+    border-bottom: #ccc;
+    border-top: #259156;
+    border-width: 100%;
+}
+
+
+.nav-link ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.nav-link ul li:last-child {
+    margin-right: 0;
+}
+
+.nav-link ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link ul li a:hover {
+    background-color: #f5f5f5;
+}
+
+.about-section h1, .courses-section h1, .blog-section h1, .contact-section h1 {
+    margin: 20px 0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.about-section p, .courses-section ul, .blog-section article, .contact-section p {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.gallery-section {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.events-section ul li {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact-form form {
+    margin: 0;
+}
+
+.contact-form form div {
+    margin-bottom: 20px;
+}
+
+.contact-form form input, .contact-form form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form form button {
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form form button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #212121;
+    color: white;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer.social-links {
+    margin-top: 20px;
+}
+
+.footer.social-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.footer.social-links a:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    background-size: cover;
+}
+
+/* Social Icons Styling */
+.icon-facebook {
+    background-image: url('path/to/facebook-icon.png');
+}
+
+.icon-twitter {
+    background-image: url('path/to/twitter-icon.png'); 
+}
+
+.icon-instagram {
+    background-image: url('path/to/instagram-icon.png'); 
+}
+
+.icon-linkedin {
+    background-image: url('path/to/linkedin-icon.png'); 
+}
